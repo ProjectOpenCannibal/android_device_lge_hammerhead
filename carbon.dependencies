@@ -1,7 +1,7 @@
 [
   {
-    "remote": "omnirom",
-    "repository": "android_kernel_lge_hammerhead",
+    "remote": "gh",
+    "repository": "OmniROM/android_kernel_lge_hammerhead",
     "target_path": "kernel/lge/hammerhead",
     "revision": "android-6.0"
   }

@@ -18,7 +18,7 @@
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Inherit APNs list
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Exclude live wallpapers
 TARGET_EXCLUDE_LIVEWALLPAPERS := true
@@ -30,12 +30,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 TARGET_BOOTANIMATION_SIZE := 1080x608
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/carbon/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/hammerhead/device.mk)
 
-PRODUCT_NAME := omni_hammerhead
+PRODUCT_NAME := carbon_hammerhead
 PRODUCT_DEVICE := hammerhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5
